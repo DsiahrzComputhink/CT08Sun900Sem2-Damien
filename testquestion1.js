@@ -21,6 +21,7 @@ function draw(){
 function mousePressed() {
     console.log("Mouse clicked at: ", mouseX, mouseY);
     let newsprite = new Sprite(mouseX, mouseY, diameter);
-    sprite.gravity = 15;
     objects.push(newsprite);
 }
+
+// this is pain
