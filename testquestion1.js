@@ -17,7 +17,6 @@ function draw(){
         console.log(objects[index]);
         objects[index].y += 10
     }
-    objectposition();
     ellipse(90, 400, 50, 50); // Draw the player as a circle
 }
 
