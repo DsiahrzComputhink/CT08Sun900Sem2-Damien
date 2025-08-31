@@ -17,12 +17,11 @@ function draw(){
         console.log(objects[index].y);
         objects[index].y += 10
     }
-    ellipse(90, 400, 50, 500); // Draw the player as a circle
 }
 
 function mousePressed() {
     console.log("Mouse clicked at: ", mouseX, mouseY);
-    let newsprite = circle(mouseX, mouseY, diameter);
+    let newsprite = new circle(mouseX, mouseY, diameter);
     sprite.gravity = 15;
     objects.push(newsprite);
 }
