@@ -9,7 +9,7 @@ function setup(){
   sprite = circle(90, 90, diameter);
   sprite.diameter += 1000;
   sprite.collider = "dynamic";
-  world.gravity.y = 1;
+  gravity.y = 1;
 }
 
 function draw(){
