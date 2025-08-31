@@ -17,7 +17,7 @@ function draw(){
         console.log(objects[index].y);
         objects[index].y += 10
     }
-    ellipse(90, 400, 50, 50); // Draw the player as a circle
+    ellipse(90, 400, 50, 500); // Draw the player as a circle
 }
 
 function mousePressed() {
