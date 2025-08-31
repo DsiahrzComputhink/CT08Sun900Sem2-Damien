@@ -14,7 +14,7 @@ function setup(){
 
 function draw(){
     for (let index = 0; index < objects.length; index++) {
-        console.log(objects[index].y);
+        console.log(objects[index]);
         objects[index].y += 10
     }
     objectposition();
