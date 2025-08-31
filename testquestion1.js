@@ -27,6 +27,7 @@ function mousePressed() {
 function objectposition() {
     for (let index = 0; index < objects.length; index++) {
         console.log(objects[index].vely);
-        objects[index].vely = 10
+        objects[index].y += 10
+
     } 
 }
