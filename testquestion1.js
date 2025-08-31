@@ -27,10 +27,3 @@ function mousePressed() {
     sprite.gravity = 15;
     objects.push(newsprite);
 }
-
-function objectposition() {
-    for (let index = 0; index < objects.length; index++) {
-        console.log(objects[index].y);
-        objects[index].y += 10
-    } 
-}
