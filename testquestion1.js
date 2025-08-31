@@ -8,7 +8,7 @@ function setup(){
   background(0);
   world.gravity.y = 1;
   square = new rect(width / 2, height - (square.height / 2), width, 50);
-  square.collider = "static"
+  square.collider = "static";
 }
 
 function draw(){
