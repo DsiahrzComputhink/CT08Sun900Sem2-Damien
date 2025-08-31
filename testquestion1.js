@@ -9,11 +9,10 @@ function setup(){
   sprite = circle(90, 90, diameter);
   sprite.diameter += 1000;
   sprite.collider = "dynamic";
-  world.gravity.y = 15;
+  world.gravity.y = 1;
 }
 
 function draw(){
-    background(0);
     objectposition();
     ellipse(90, 400, 50, 50); // Draw the player as a circle
 }
