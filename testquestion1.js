@@ -6,10 +6,10 @@ let diameter = 50;
 function setup(){
   createCanvas(600, 400);
   background(0);
-  sprite = circle(90, 90, diameter);
   sprite.diameter += 1000;
   sprite.collider = "dynamic";
   world.gravity.y = 1;
+  square = new square
 }
 
 function draw(){
