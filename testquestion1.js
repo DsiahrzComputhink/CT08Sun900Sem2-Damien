@@ -9,7 +9,7 @@ function setup(){
   sprite.diameter += 1000;
   sprite.collider = "dynamic";
   world.gravity.y = 1;
-  square = new rect(width / 2, height - (square.), width, height);
+  square = new rect(width / 2, height - (square.height / 2), width, 50);
   square.collider = "static"
 }
 
